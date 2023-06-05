@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inconsolata&family=Quicksand&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo"><img src="/img/png-clipart-logo-product-design-font-maths-logo-logo-silhouette.png" alt="logo" width="80px"  height="80px"srcset=""></div>
+        <div class="links">
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Tally_counter" target="_blank" rel="noopener noreferrer">Reference</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="holder">
+        <div id="holder1">
+            <div id="holder2">
+                <h1>People Counter </h1>
+                <h2 id="count-el">0</h2>
+                <h2 id="storage"></h2>
+                <div class="holder3">
+                    <button id="increment-btn" onclick="increment()">Increment</button>
+                    <button id="decrement" onclick="decrement()">Decrement</button>
+                    <button id="reset" onclick="reset()">Reset</button>
+                    <button id="store" onclick="store()">Store</button>
+                </div>
+            </div>
+        </div>
+        <div class="total" id="sum"></div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
+
