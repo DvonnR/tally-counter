@@ -30,6 +30,7 @@ function reset() {
     document.getElementById('storage').innerText ="";
     total.innerHTML = "";
     count = 0;
+    test=0;
     b = 0;
     holder = [];
 }
@@ -48,6 +49,6 @@ function store(){
     holder[i] = test;
     b += holder[i];
     i++;
-    total.innerHTML = "The current sum of your stored value are: " + b;
+    total.innerHTML = "The current headcount is: " + b;
     count = 0;
-}
+}  
